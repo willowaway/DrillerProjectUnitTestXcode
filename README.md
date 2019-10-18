@@ -1,14 +1,20 @@
 # Data Structures Labs and Projects
 
+## Credit where credit is due
+This repo is entirely thanks to a blog post by [Testing C++17 Projects in Xcode With XCTest](https://hiltmon.com/blog/2019/02/09/testing-c-plus-plus-17-project-in-xcode-with-xctest/) on [Hiltmon.com](https://hiltmon.com).  Please go check out the article if you want a more in depth understanding on how this was created.
+
+I simply created a scheme to run command line applications seperately from the Unit Testing framework that Hiltmon setup.
+
+I also setup a XCTAssertCppThrows wrapper to handle unit testing for Exceptions.
+
+
 ## Branches
-lab4
-* Finished lab 4 static branch
-proj1
-* Finished project 1 static branch
+master
+* Only commit to master once everything is 100% working
 dev
 * Primary development
-master
-* Primary branch
+test
+* Primary testing specific section of dev
 
 ## Xcode with XCTests
 

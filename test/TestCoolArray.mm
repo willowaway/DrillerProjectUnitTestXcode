@@ -35,7 +35,6 @@ using namespace std;
     CoolArray* cool = new CoolArray();
     
     XCTAssertCppThrows(cool->throwPlease(), @"should thow exception");
-
 }
 
 
