@@ -37,6 +37,4 @@ using namespace std;
     XCTAssertCppThrows(cool->throwPlease(), @"should thow exception");
 }
 
-
-
 @end

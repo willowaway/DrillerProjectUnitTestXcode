@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		310BE88B235A2E1E005922D5 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 310BE88A235A2E1E005922D5 /* Main.cpp */; };
-		310BE88C235A2E2D005922D5 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 310BE88A235A2E1E005922D5 /* Main.cpp */; };
 		310BE88E235A2EC0005922D5 /* Comparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 310BE88D235A2EB4005922D5 /* Comparator.h */; };
-		310BE893235A2EF0005922D5 /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 310BE88F235A2EE7005922D5 /* Exceptions.cpp */; };
-		310BE894235A2EF2005922D5 /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 310BE88F235A2EE7005922D5 /* Exceptions.cpp */; };
 		310BE89C235A3035005922D5 /* CoolArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 310BE89A235A3035005922D5 /* CoolArray.h */; };
 		310BE8A5235A320B005922D5 /* TestCoolArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 310BE8A4235A320B005922D5 /* TestCoolArray.mm */; };
+		310BE8A6235A3814005922D5 /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 310BE88F235A2EE7005922D5 /* Exceptions.cpp */; };
+		310BE8A7235A381C005922D5 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 310BE88A235A2E1E005922D5 /* Main.cpp */; };
 		31A566C723438AD000225E34 /* TestComparator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31A566C42343895700225E34 /* TestComparator.mm */; };
 		31D571782348F9340001990B /* IntComparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31D571762348F9340001990B /* IntComparator.cpp */; };
 		31D571792348F9340001990B /* IntComparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D571772348F9340001990B /* IntComparator.h */; };
@@ -281,8 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310BE88C235A2E2D005922D5 /* Main.cpp in Sources */,
-				310BE894235A2EF2005922D5 /* Exceptions.cpp in Sources */,
+				310BE8A7235A381C005922D5 /* Main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +290,7 @@
 			files = (
 				310BE88B235A2E1E005922D5 /* Main.cpp in Sources */,
 				31D571782348F9340001990B /* IntComparator.cpp in Sources */,
+				310BE8A6235A3814005922D5 /* Exceptions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +301,6 @@
 				31A566C723438AD000225E34 /* TestComparator.mm in Sources */,
 				31F0517B23305E860066304F /* XCTAssertCppThrows.mm in Sources */,
 				310BE8A5235A320B005922D5 /* TestCoolArray.mm in Sources */,
-				310BE893235A2EF0005922D5 /* Exceptions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
